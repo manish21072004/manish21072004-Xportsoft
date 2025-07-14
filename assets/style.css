@@ -478,6 +478,9 @@ a.navbar-brand.gis span{
 }
 }
 @media (max-width: 360px){
+    .image-1 img {
+    height: 36px;
+    }
           .sec-4-right p {
         font-size: 11px;
     }
@@ -525,6 +528,9 @@ a.navbar-brand.gis span{
         .sec-6-image-containt p {
         font-size: 15px;
     }
+    .sec-3-image-containt p {
+    font-size: 17px;
+}      
 }
 @media (max-width: 320px){
         .left h1 {
