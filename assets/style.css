@@ -42,6 +42,9 @@ a.navbar-brand.gis span{
     width: 100%;
     float: left;
 }
+.left{
+    animation: leftse 2s ease-in-out 0.25s  normal forwards;
+}
 .sec-1-image img{
     width: 100%;
 }
@@ -77,6 +80,9 @@ a.navbar-brand.gis span{
 .right img{  
     width: 100%;
 }
+.sec-1-image{
+    animation: rightse 2s ease-in-out 0.25s  normal forwards;
+}
 .footer-containt{
    background-color: blue;
 }
@@ -85,6 +91,12 @@ a.navbar-brand.gis span{
     float: left;
     background-color: rgb(213, 213, 213);
     margin-top: 20px;
+}
+.heading{
+     animation: rightse 2s ease-in-out 0.25s  normal forwards;
+}
+.main{
+     animation: leftse 2s ease-in-out 0.25s  normal forwards;
 }
 .heading{
     text-align: center;
@@ -127,6 +139,12 @@ a.navbar-brand.gis span{
     width: 100%;
     float: left;
    background-color: rgb(2, 2, 42);
+}
+.sec-3-heading{
+    animation: rightse 2s ease-in-out 0.25s  normal forwards;
+}
+.image-1{
+    animation: leftse 2s ease-in-out 0.25s  normal forwards;
 }
 .sec-3-heading{
     text-align: center;
@@ -173,6 +191,12 @@ a.navbar-brand.gis span{
     float: left;
     padding: 50px;
 }
+.sec-4-right{
+     animation: leftse 2s ease-in-out 0.25s  normal forwards;
+}
+.sec-4-left{
+    animation: rightse 2s ease-in-out 0.25s  normal forwards;
+}
 .sec-4-right h2{
     font-size: 50px;
     font-weight: 700;
@@ -207,6 +231,15 @@ a.navbar-brand.gis span{
     width: 100%;
     float: left;
     background-color: rgba(223, 222, 222, 0.393);
+}
+.sec-5-heading{
+    animation: rightse 2s ease-in-out 0.25s  normal forwards;
+}
+.sec-5-image{
+     animation: leftse 2s ease-in-out 0.25s  normal forwards;
+}
+.sec-5-containt{
+     animation: rightse 2s ease-in-out 0.25s  normal forwards;
 }
 
 .right{
@@ -291,6 +324,7 @@ a.navbar-brand.gis span{
     color: black;
     font-size: 20px;
 }
+
 /* media quaree */
 
 @media (max-width: 992px) {
@@ -570,6 +604,25 @@ a.navbar-brand.gis span{
         .sec-6-image-containt span {
         font-size: 10px;
     }
+}
+
+@keyframes leftse{
+    from{
+        transform: translateX(-700px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes rightse{
+    from{
+        transform: translateX(900px);
+    }
+    to{
+        transform: translateX(0);
+       
+ }
 }
 
 
