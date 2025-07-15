@@ -6,6 +6,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+section{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
 .sec-1{
     width: 100%;
     float: left;
