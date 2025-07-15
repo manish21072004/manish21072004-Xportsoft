@@ -141,7 +141,7 @@ a.navbar-brand.gis span{
    background-color: rgb(2, 2, 42);
 }
 .sec-3-heading{
-    animation: rightse 2s ease-in-out 0.25s  normal forwards;
+    animation: righttse 2s ease-in-out 0.25s  normal forwards;
 }
 .image-1{
     animation: leftse 2s ease-in-out 0.25s  normal forwards;
@@ -621,8 +621,7 @@ a.navbar-brand.gis span{
     }
     to{
         transform: translateX(0);
-       
- }
+}
 }
 
 
